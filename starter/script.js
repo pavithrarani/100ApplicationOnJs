@@ -127,6 +127,7 @@ console.log(avg);
 //Function declaration
 //functon whatDoyouDo(job, firstName){}
 
+console.log('*********function expression*********');
 //function expression
 var whatDoyouDo = function(job , firstName){
     
@@ -149,7 +150,7 @@ var whatDoyouDo = function(job , firstName){
 console.log(whatDoyouDo('teacher', 'pavithra'));
 
 //Arrays
-
+console.log('*********Arrays*********');
 var names = [ 'a', 'b', 'c'];
 
 var years = new Array(1990,2000,2001);
@@ -191,6 +192,7 @@ console.log(john[x]);
 
 
 //objects and methods
+console.log('******** Objects & methods****');
 var john = {
     name: "john",
     lastname: "smith",
@@ -202,4 +204,43 @@ var john = {
 //console.log(john.calAge());
 
 var age = john.calAge();
+console.log(john);
+
+
+//loops
+console.log('*************loops*************');
+var john={
+    Bill: [124,48,268,180,42],
+    calTip: function() {
+        
+        this.tip = [];
+        this.finalBill =[];
+        for(var i=0; i< john.Bill.length; i++)
+        {
+            var bill = john.Bill[i];
+            if(bill <50)
+            {
+                this.tip[i] = bill* 0.2;
+              // return bill * 0.2;
+
+            }
+            else if(bill >= 50 && bill <200)
+                {
+                this.tip[i] = bill * 0.15;
+               // return bill * 0.15;
+                }
+            else 
+            {
+                this.tip[i] = bill * 0.1;
+               // return bill * 0.1;
+            }
+        
+        this.finalBill[i] = this.tip[i] + john.Bill[i] ;  
+        }
+    }
+}
+
+//console.log(john.Bill.length);
+john.calTip();
+
 console.log(john);
