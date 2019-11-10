@@ -16,10 +16,14 @@ Course by: @Jonas Schmedtmann
     
 2. Execution contexts and stacks.
     > this also looks very clean compare to C++. Var objects takes care of most of the thing. 
-    > hosting is best , which is nothing but what happens on creation time & exection time(compile time and run time). Function declaration in JS contributes for Hoisting. Variable taking undefined value,even then declation is followed later is best. (C++ compiler will cry here).
+    >Hoisting: , which is nothing but what happens on creation time & exection time(compile time and run time). Function declaration in JS contributes for Hoisting. Variable taking undefined value,even then declation is followed later is best. (C++ compiler will cry here).
     console.log(age);
     var age= 32;
     CPP thows compilation error. 
+    
+   3. Execution stack vs Scope change:
+   execution stack shows order in which function has been invoked.
+   Scope change: shows the stack level for code is written. ( lexically)
       
     
     Update as on 10th Nov 2019.
