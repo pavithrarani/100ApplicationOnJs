@@ -16,10 +16,14 @@ Course by: @Jonas Schmedtmann
     
 2. Execution contexts and stacks.
     > this also looks very clean compare to C++. Var objects takes care of most of the thing. 
+    > hosting is best , which is nothing but what happens on creation time & exection time(compile time and run time). Function declaration in JS contributes for Hoisting. Variable taking undefined value,even then declation is followed later is best. (C++ compiler will cry here).
+    console.log(age);
+    var age= 32;
+    CPP thows compilation error. 
       
     
     Update as on 10th Nov 2019.
     
     Doubt: Here comes the pointer and its handling. Is there a pointer in JS? 
-    if not there how is this pass by value ,pass by reference only applied to pointers in c++?
+    if not , how is this pass by value ,pass by reference only applied to pointers in c++?
     Simply how to play with Address of the variable in JS?
