@@ -30,6 +30,7 @@ Course by: @Jonas Schmedtmann
     > Place a UI elements onto webpage using HTML and CSS. how to query these HTML/CSS elements into java script using a DOM.
     > how Java script plays important role in manipulating UI change.
     > Developed a PIG-GAME.
+ 5. Inheritance in JS: Prototypes and prototype chain
     
    
     
