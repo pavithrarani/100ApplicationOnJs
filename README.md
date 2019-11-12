@@ -21,13 +21,16 @@ Course by: @Jonas Schmedtmann
     var age= 32;
     CPP thows compilation error. 
     
-   3. Execution stack vs Scope change:
+ 3. Execution stack vs Scope change:
    execution stack shows order in which function has been invoked.
    Scope change: shows the stack level for code is written. ( lexically)
-      
+       Update as on 10th Nov 2019.
+       
+4. Document object model 
+    > Place a UI elements onto webpage using HTML and CSS. how to query these HTML/CSS elements into java script using a DOM.
+    > how Java script plays important role in manipulating UI change.
+    > Developed a PIG-GAME.
     
-    Update as on 10th Nov 2019.
+   
     
-    Doubt: Here comes the pointer and its handling. Is there a pointer in JS? 
-    if not , how is this pass by value ,pass by reference only applied to pointers in c++?
-    Simply how to play with Address of the variable in JS?
+    Doubt:  how to play with Address of the variable in JS?
