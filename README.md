@@ -31,6 +31,15 @@ Course by: @Jonas Schmedtmann
     > how Java script plays important role in manipulating UI change.
     > Developed a PIG-GAME.
  5. Inheritance in JS: Prototypes and prototype chain
+    >every javascript object has a prototype property, which makes inheritance possible in javascript.
+    >The proptotype property of an object is where we put methods and properties that we want to other objects to inherit.
+    >The constructor's prototype property is NOT the prototype of the constructor itself.it is the prototype of ALL instances that are created through it
+    > when a certain method(a property) is called, the search starts in the object itself and if it cannot be found, the search moved on to the object's prototype. This continues until the method is found: prototype chain
+    
+    6. creating objects: function constructor
+    using a function constructor how the methods can be shared between two objects. Also using prototype how the methods and properties can be inherited.
+    creating objects via Object.Create
+    
     
    
     
